@@ -32,7 +32,3 @@ This mod prevents that — allowing you to continue using Xaero's Minimap even o
 
 This project is not affiliated with or endorsed by Xaero.  
 Use at your own risk.
-
-## License
-
-MIT License
