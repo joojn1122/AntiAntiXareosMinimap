@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.joojn.antiantixareosminimap.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "ClientPlayNetworkingMixin",
+    "MessageHandlerMixin"
+  ]
+}

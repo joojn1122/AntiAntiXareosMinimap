@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "antiantixareosminimap",
+  "version": "${version}",
+  "name": "AntiAntiXareosMinimap",
+  "description": "Prevents the Xareo's Minimap from being disabled by servers.",
+  "authors": [
+    "joojn"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/antiantixareosminimap/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.joojn.antiantixareosminimap.AntiAntiXareosMinimap"
+    ]
+  },
+  "mixins": [
+    "antiantixareosminimap.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
